@@ -2,7 +2,9 @@
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: bisque;
+    background-color: bisque; 
+    border: solid 1px black;
+    margin: 25px;
 }
 
 .flex-container>div {
