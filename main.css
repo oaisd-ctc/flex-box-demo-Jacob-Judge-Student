@@ -13,3 +13,16 @@
     padding: 30px;
     font-size: 35px;
 }
+.flex-container-direction {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque; 
+    border: solid 1px black;
+    margin: 25px;
+}
+.flex-container-direction>div {
+    background-color: burlywood;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px;
+}

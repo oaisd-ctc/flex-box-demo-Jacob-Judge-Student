@@ -9,7 +9,7 @@
 <body>
     
     <h1>Flex Info</h1>
-    <p>Information about <em>Flex classes</em></p>
+    <p>Information about <em>Flex Classes</em></p>
     <h2>Standard Flex Container</h2>
     <p>Below this text is the most standard flex container, it only has divs in its body and works in rows.</p>
 <div class="flex-container">
@@ -18,20 +18,25 @@
     <div>3</div>
     
 </div>
-<p>Below this text is an Order Property, it modifies the order which the boxes are placed, in my div styles, they are listed 1, 2, 3, and 4, but they are different here.</p>
+<p>Below this text is an Order Property, it modifies the order which the boxes are placed, in my div styles, they are listed 1, 2, 3, and 4, but they are lsited as 4, 2, 1, and 3 here.</p>
 <div class="flex-container"> 
     <div style="order: 3">1</div>
     <div style="order: 2">2</div>
     <div style="order: 4">3</div>
     <div style="order: 1">4</div>
 </div>
-<p>Below this text is a Grow Property, you can modify the length of the flex containers here by </p>
+<p>Below this text is a Grow Property, you can modify the length of the boxes by increasing the flex-grow size, to whatever number you please.</p>
 <div class="flex-container">
 <div style="flex-grow: 1">1</div>
 <div style="flex-grow: 1.5">2</div>
 <div style="flex-grow: 2">3</div>
 </div>
-
+<p>Below this text is a flex direction, it is stacked on top of each other, rather than being alongside each other.</p>
+<div class="flex-container-direction">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+</div>
 
 </body>
 
