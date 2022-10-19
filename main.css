@@ -26,3 +26,33 @@
     padding: 30px;
     font-size: 35px;
 }
+.flex-container-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+    border: solid 1px black;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px;  
+}
+.flex-container-wrap>div {
+    background-color: burlywood;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px;
+}
+.flex-container-justify {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    border: solid 1px black;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px;  
+}
+.flex-container-justify>div {
+    background-color: burlywood;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px;
+}
