@@ -1,8 +1,7 @@
-
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: bisque; 
+    background-color: bisque;
     border: solid 1px black;
     margin: 25px;
 }
@@ -13,19 +12,37 @@
     padding: 30px;
     font-size: 35px;
 }
+
 .flex-container-direction {
     display: flex;
     flex-direction: column;
-    background-color: bisque; 
+    background-color: bisque;
     border: solid 1px black;
     margin: 25px;
 }
+
 .flex-container-direction>div {
     background-color: burlywood;
     margin: 15px;
     padding: 30px;
     font-size: 35px;
 }
+
+.flex-container-direction-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: bisque;
+    border: solid 1px black;
+    margin: 25px;
+}
+
+.flex-container-direction-reverse>div {
+    background-color: burlywood;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px;
+}
+
 .flex-container-wrap {
     display: flex;
     flex-wrap: wrap;
@@ -33,14 +50,34 @@
     border: solid 1px black;
     margin: 15px;
     padding: 30px;
-    font-size: 35px;  
+    font-size: 35px;
 }
+
 .flex-container-wrap>div {
     background-color: burlywood;
     margin: 15px;
     padding: 30px;
     font-size: 35px;
 }
+
+.flex-container-wrap-nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: bisque;
+    border: solid 1px black;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px;
+
+}
+
+.flex-container-wrap-nowrap>div {
+    background-color: burlywood;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px;
+}
+
 .flex-container-justify {
     display: flex;
     justify-content: center;
@@ -48,8 +85,9 @@
     border: solid 1px black;
     margin: 15px;
     padding: 30px;
-    font-size: 35px;  
+    font-size: 35px;
 }
+
 .flex-container-justify>div {
     background-color: burlywood;
     margin: 15px;
