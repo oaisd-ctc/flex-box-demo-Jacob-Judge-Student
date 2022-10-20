@@ -143,3 +143,18 @@
     padding: 30px;
     font-size: 35px; 
 }
+.flex-container-justify-between {
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+    border: solid 1px black;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px;
+}
+.flex-container-justify-between>div {
+    background-color: burlywood;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px; 
+}
