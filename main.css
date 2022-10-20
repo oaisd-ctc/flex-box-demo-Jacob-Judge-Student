@@ -127,3 +127,19 @@
     padding: 30px;
     font-size: 35px; 
 }
+.flex-container-justify-around {
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    border: solid 1px black;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px;
+}
+
+.flex-container-justify-around>div {
+    background-color: burlywood;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px; 
+}
