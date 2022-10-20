@@ -158,3 +158,39 @@
     padding: 30px;
     font-size: 35px; 
 }
+
+.flex-container-align-center {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    background-color: bisque;
+    border: solid 1px black;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px;
+}
+
+.flex-container-align-center>div {
+    background-color: burlywood;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px; 
+}
+
+.flex-container-align-start {
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+    background-color: bisque;
+    border: solid 1px black;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px;
+}
+
+.flex-container-align-start>div {
+    background-color: burlywood;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px; 
+}
