@@ -94,3 +94,36 @@
     padding: 30px;
     font-size: 35px;
 }
+
+.flex-container-justify-start {
+    display: flex;
+    justify-content: flex-start;
+    background-color: bisque;
+    border: solid 1px black;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px;
+}
+
+.flex-container-justify-start>div {
+    background-color: burlywood;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px;
+}
+.flex-container-justify-end {
+    display: flex;
+    justify-content: flex-end;
+    background-color: bisque;
+    border: solid 1px black;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px;
+}
+
+.flex-container-justify-end>div {
+    background-color: burlywood;
+    margin: 15px;
+    padding: 30px;
+    font-size: 35px; 
+}
