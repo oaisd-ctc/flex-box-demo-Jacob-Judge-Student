@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Flex Box Lab</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+    <h1>Flex Info</h1>
+    <p>Information about <em>Flex Classes</em></p>
+    <h3>Below this text is the most standard Flex Container, it only has divs in its body and works in rows.</h3>
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+
+    </div>
+    <h3>Below this text is an Order Property, it modifies the order which the boxes are placed, in my div styles,
+        they
+        are listed 1, 2, 3, and 4, but here, they are listed as 4, 2, 1, and 3.</h3>
+    <div class="flex-container">
+        <div style="order: 3">1</div>
+        <div style="order: 2">2</div>
+        <div style="order: 4">3</div>
+        <div style="order: 1">4</div>
+    </div>
+    <h3>Below this text is a Grow Property, you can modify the length of the boxes by increasing the flex-grow size,
+        to
+        whatever measurement you please.</h3>
+    <div class="flex-container">
+        <div style="flex-grow: 1">1</div>
+        <div style="flex-grow: 1.5">2</div>
+        <div style="flex-grow: 2">3</div>
+    </div>
+    <h3>Below this text is a flex direction, it is stacked on top of each other, rather than being alongside each
+        other.
+    </h3>
+    <div class="flex-container-direction">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <h3>Below this text is the Flex-Wrap property, it wraps the numbers
+        around the size of the website, or wherever it
+        is
+        located, so it is formatted and looks better. (try resizing the webpage, it will wrap in itself.)</h3>
+    <div class="flex-container-wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+        <div>16</div>
+
+    </div>
+    <h3>Another example of the Flex-Wrap property is the Flex-Wrap Nowrap, it basically doesnt Wrap whenever it
+        exceeds
+        the box it is in.</h3>
+    <div class="flex-container-wrap-nowrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+        <div>16</div>
+    </div>
+    <h3>Below this text is the Justify-Content property, it centers the numbers in the middle of your monitor.</h3>
+    <div class="flex-container-justify">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+    <h3>Below this text is another example of Justify-Content, however, this one is flex-start, which aligns the
+        flex
+        container items at the beginning of the container, basically just a default flex container.</h3>
+    <div class="flex-container-justify-start">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+    </div>
+    <h3>Below this text is yet another example of Justify-Content, however, this one is a flex-end, which aligns the
+        flex container items to the end of the container.</h3>
+    <div class="flex-container-justify-end">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h3>Below this text is yet the third example of Justify-Content, it is the space-around, however instead of it
+        being default or to the
+        end, it displays the flex items with space before, between, and after the lines.</h3>
+    <div class="flex-container-justify-around">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h3>Here is thankfully the fourth and final example of Justify-Content, the space-between value, it displays the
+        flex items with space between the lines.</h3>
+    <div class="flex-container-justify-between">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <h3>Here is the align-items property, the center value of the align-items property aligns the flex items in the
+        middle of the container.</h3>
+    <div class="flex-container-align-center">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+    <h3>Another example of the align-items property, is the flex-start, this value aligns the flex items at the top
+        of the container.</h3>
+    <div class="flex-container-align-start">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+
+    </div>
+    <h3>Yet another example of the align-items property, is the flex-end, this value aligns the flex items at the
+        bottom of the container. </h3>
+    <div class="flex-container-align-end">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <h3>here is the fourth example of the align-items property, this one is the stretch value, it stretches the flex
+        items to fill the container.</h3>
+    <div class="flex-container-align-stretch">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+    <h3>Fortunately, here is the last and final piece of the align-items property, the baseline value, it aligns the
+        flex items such as their baselines align.</h3>
+    <div class="flex-container-align-baseline">
+        <div>
+            <h1>1</h1>
+        </div>
+        <div>
+            <h6>2</h6>
+        </div>
+        <div>
+            <h3>3</h3>
+        </div>
+        <div>4</div>
+        <div><small>5</small></div>
+    </div>
+    <h3>Below this text is an example of the flex-basis Property, it specifies the initial length of a flex item.
+    </h3>
+
+    <div class="flex-item-basis">
+        <div>1</div>
+        <div style="flex-basis:200px;">2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+
+
+</body>
+
+</html>
